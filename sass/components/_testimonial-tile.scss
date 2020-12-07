@@ -1,0 +1,25 @@
+.testimonial-tile {
+  width: 31.5rem;
+  margin: 0 auto;
+
+  &__icon {
+    transform: translateY(50%);
+    z-index: 1;
+  }
+
+  &__name {
+    margin-top: 1.5rem;
+  }
+
+  &__text {
+    z-index: 2;
+    position: relative;
+  }
+
+  &__img {
+    height: 6.2rem;
+    border-radius: 50%;
+    border: 2px solid $rapture-blue;
+    margin: 10px;
+  }
+}

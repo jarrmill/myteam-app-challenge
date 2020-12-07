@@ -1,0 +1,8 @@
+@mixin accent-bar($color) {
+  content: '';
+  display:table;
+  height: 4px;
+  width: 50px;
+  background-color: $color;
+  margin-bottom: 3rem;
+}
