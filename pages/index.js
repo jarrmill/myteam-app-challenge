@@ -1,5 +1,6 @@
 import Header from './components/Header'
 import TestimonialTile from './components/TestimonialTile'
+import CallToAction from './components/CallToAction'
 
 function HomePage() {
   return (
@@ -58,7 +59,7 @@ function HomePage() {
         </div>
       </section>
       <section className="testimonials">
-        <img src="/bg-pattern-home-4-about-3.svg" className="testimonials__pattern"></img>
+        <img src="/bg-pattern-home-4-about-3.svg" className="testimonials__pattern--1"></img>
         <div className="testimonials__title">
           <h3>
             Delivering real results for top companies. Some of our <h3 className="rapture-blue"> success stories.</h3>
@@ -85,7 +86,9 @@ function HomePage() {
           text="“Amazing. Our team helped us build an app that delivered a new experience for hiring a physio. The launch was an instant success with 100k downloads in the first month.”"
           imgPath="/avatar-arthur.jpg"
         ></TestimonialTile>
+        <img src="/bg-pattern-home-5.svg" className="testimonials__pattern--2"></img>
       </section>
+      <CallToAction />
     </main>
   )
 }

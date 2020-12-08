@@ -40,7 +40,7 @@
     position: absolute;
     height: 24.4rem;
     width: 10rem;
-    transform: translateX(100%) translateY(-5rem);
+    transform: translateX(86%) translateY(-5rem);
     object-fit: cover;
     object-position: 0 0;
   }
@@ -67,20 +67,25 @@
 }
 
 .testimonials {
-  height: 200rem;
+  height: 160em;
 
   &__title {
-    border: 1px solid black;
     margin: auto;
     width: 90vw;
   }
 
-  &__pattern {
+  &__pattern--1 {
     padding: 0px;
     position: relative;
     top: 0px;
     left: -30%;
     display: inline-block;
     margin-bottom: 5rem;
+  }
+
+  &__pattern--2 {
+    padding: 0px;
+    float: right;
+    margin-top: 8.5rem;
   }
 }

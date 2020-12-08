@@ -30,12 +30,24 @@ p {
   font-weight: 400;
 }
 
+button {
+  p {
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    font-weight: 400;
+  }
+}
+
 .coral {
   color: $light-coral;
 }
 
 .rapture-blue {
   color: $rapture-blue;
+}
+
+.sacramento-state-green {
+  color: $sacramento-state-green;
 }
 
 .header-logo {
